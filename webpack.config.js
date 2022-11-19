@@ -5,7 +5,6 @@ const path = require('path');
 
 const isDev = process.env.NODE_ENV === "development";
 
-
 module.exports = {
   context: path.resolve(__dirname, 'src'),
 
